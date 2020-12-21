@@ -1,0 +1,325 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F3F3F3;
+}
+
+/*HEADER-SECTION
+============================================*/
+header .navbar-brand{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+header .nav-item{
+	margin-left: 40px;	
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	font-style: normal;
+}
+
+
+
+/*MAIN-SECTION
+=============================================*/
+
+.text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 54px;
+	margin-top: 200px;
+}
+
+.text-description{
+  transform: translate(90px);
+  width: 414px;
+  height: 55px;
+  padding: 10px 10px;
+  background-color: #2D2FB6;
+  font-weight: bold;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+}
+
+.text-paragraph{
+	width: 558px;
+	height: 78px;
+	background: #EEAC00;
+	padding: 10px 10px;
+	margin-top: 81px;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+
+
+
+/*WHAT-SECTION
+===============================================*/
+
+.about{
+	font-size: 30px;
+	font-style: normal;
+	font-weight:  bold;
+	margin-left: 100px;
+	margin-top: 5%;
+
+}
+
+.text-about{
+	padding: 39px 29px 34px 29px;
+	width: 90%;
+	height: 85%;
+	background: #E5E5E5;
+	font-weight: 400px;
+	margin-top: 25px;
+}
+
+
+.colortext{
+	color: #2D2FB6;
+	font-weight: bold;
+}
+
+/*NUMERAL-SECTION
+=============================================*/
+#rectangle{
+	width: 247px;
+	height: 151px;
+	background: #E5E5E5;
+	border-radius: 20px;
+	box-shadow: -2px 0px 10px #F5CF6B, 2px 6px 10px #F5CF6B;
+}
+
+
+
+.head{
+	margin-top: 0px;
+	padding: 5px 5px;
+}
+
+#square{
+	
+	width: 	83px;
+	height: 83px;
+	left: 374px;
+	padding: 10px 10px 10px 10px;
+	margin-left: 30%;
+	margin-top: -10%;
+	border-radius: 40px;
+	background: #EEAC00;
+	border: 3px solid #F5CF6B;
+	
+	}
+
+.square-text{
+	line-height: 59px;
+	width: 56px;
+	height: 59px;
+	font-size: 48px;
+	color: transparent;
+	-webkit-text-stroke: 2px black;
+	font-weight: 800;
+	font-style: normal;
+}
+
+	
+.card-text{
+	text-align: center;
+	color: #2D2FB6;
+	font-weight: 600;
+}
+
+
+/*CAPABILITY-SECTION
+===============================================*/
+h6{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+
+.text-about-about{
+	position: relative;
+	padding: 39px 29px 34px 29px;
+	width: 340px;
+	height: 400px;
+	background: #E5E5E5;
+	font-weight: 400px;
+	margin-top: 25px;
+	
+}
+
+h6::after{
+	content: '';
+	position: absolute;
+	background-color: #2D2FB6;
+	width: 189px;
+	height: 5px;
+	border-radius: 10px;
+	right: 65px;
+	top: 75px;
+}
+
+
+.button{
+	margin-left: 50px;
+}
+
+.btn.btn-warning{
+	position: absolute;
+	bottom: 5px;
+	width: 50%;
+	height: 54px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/*DIRECTION-SECTION
+=================================================*/
+
+.direction{
+	margin-top: 25px;
+
+}
+.circle-direction{
+	width: 2%;
+	height: 2%;
+	float: left;
+	border: 3px solid #2D2FB6;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.circle-direction::before{
+	width: 2%;
+	height: 2%;
+	background-color: transparent;
+}
+
+.text-direction{
+	font-weight: 400;
+	font-size: 15px;
+	padding-left: 30px;
+}
+
+/*FOOTER
+==============================================*/
+
+.footer{
+	width: 100%;
+	background: #000000;
+}
+.footer-text{
+	font-weight: 700;
+	font-size: 25px;
+	color: #E5E5E5;
+	text-align: left;
+}
+
+.btn.btn-warning{
+	font-weight: 700;
+}
+
+
+
+/*EXTENDED MEDIA REQUESTS
+=============================================*/
+
+@media (max-width: 1199px) {
+ .navbar.navbar-expand-lg.navbar-light{
+		width: 100%;
+		right: 0;
+		margin-right: 0;
+	}
+
+}
+
+/* md-размер (<=992px) */
+@media (max-width: 992px) {
+  .navbar.navbar-expand-lg.navbar-light{
+		width: 100%;
+		right: 0;
+		margin-right: 0;
+	}
+
+  .text{
+		font-size: 35px;
+	}
+
+	.text-description{
+		transition: translate(0px);
+		position: absolute;
+		z-index: 1;
+	}
+
+	.text-paragraph{
+		position: absolute;
+		z-index: 1;
+	}
+
+	.text-about-about{
+		width: 310px;
+		height: 390px;
+	}
+
+	h6{
+		font-size: 15px;
+		text-align: center;
+	}
+}	
+
+
+
+
+
+@media (max-width: 768px){
+	.navbar.navbar-expand-lg.navbar-light{
+		width: 100%;
+		right: 0;
+		margin-right: 0;
+	}
+
+	.text-description{
+		transform: translate(0px);
+		position: absolute;
+		z-index: 1;
+	}
+
+
+
+  .about {
+		margin-left: 20%;
+		margin-top: 20%;
+
+	}
+
+	.text-about{
+		height: 87%;
+	}
+
+	.text-about-about{
+		margin-left: 30%;
+	}
+
+
+}
+
+	
+
